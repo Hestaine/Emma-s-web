@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskSign</title>
+    <link rel="stylesheet" href="sign.css">
+    <link rel="icon" href="./task.jpg">
+</head>
+<body>
+    <div class="wel">
+      <h1>Welcome to TaskMaster
+      </h1>
+      <h2>Register Below
+      </h2>  
+    </div>
+  <form action="submit">
+    <section class="nam">
+      <fieldset>
+        <label for="Fnam" name="Fnam"> First Name: <input type="text" id="Fnam" name="Fnam" placeholder="Ariff..." required></label>
+      </fieldset>
+      <fieldset>
+        <label for="Lnam">Last Name: <input type="text" id="Lnam" name="Lnam" placeholder="Hestaine..." required></label>
+      </fieldset>
+      <fieldset>
+        <label for="Unam"> Username: <input type="text" id="Unam" name="Unam" placeholder="Demonslayer..." required> </label>
+      </fieldset>
+      <fieldset>
+        <label for="pass" name="pass">Password: 
+          <input type="password" id="pass" name="pass" required placeholder="Harvest12_d...">
+        </label>
+      </fieldset>
+    </section>
+    <section class="set">
+      <fieldset>
+        <label for="age" name="age"> Age: <input type="number" id="age" name="age" placeholder="20..." required min="18" max="99">
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="con" name="con"> Country: <input type="text" id="con" name="con" placeholder="Nigeria..." required>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="gen" name="gen"> Gender:   <select name="gen" id="gen">
+        <option value="">Select</option>
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+        <option value="O">Other</option>
+        </select>
+        </label>
+      </fieldset>
+    </section>
+    <section class="account">
+      <fieldset>
+        <label for="plan" name="plan">Plan type: <select name="plan" id="plan">
+        <option value="">Pick plan</option>
+        <option value="Free">Free plan</option>
+        <option value="Prof">Proffesional plan</option>
+        <option value="Enter">Enterprise plan</option>
+        </select>
+      </label>
+      </fieldset>
+    </section>
+    <section class="finish">
+      <fieldset>
+        <label for="email" name="email">Email: 
+          <input type="email" name="email" id="email" required placeholder="Houston123@gmail.com...">
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="num" name="num">Phone Number: <input type="number" id="num" name="num" maxlength="11" required placeholder="04033355549..."></label>
+      </fieldset>
+      <button type="submit" id="reg">Sign Up</button>
+    </section>
+  </form>
+    <h3>Already have an account? <a href="./log.html">Log in</a>
+    </h3>
+    <script src="log.js"></script>
+</body>
+</html>

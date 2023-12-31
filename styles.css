@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Taskmaster\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overall{
+    display: flex;
+    flex-direction: column;
+}
+.sum{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+.company{
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.obj{
+    text-align: start;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+h2{
+    padding-bottom: 0.5rem;
+    text-decoration: underline;
+}
+ol{
+    padding-left: 1rem;
+}
+.serv{
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+.includes{
+    padding-bottom: 10px;
+}
+.analyse{
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+.price{
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+.tab{
+    padding-bottom: 0.5rem;
+}
+.grid{
+    border-collapse: collapse;
+}
+.grid th, .grid td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+a{
+    color: black;
+}
+a :active{
+    color: silver;
+    cursor: pointer;
+}
+a :visited{
+    color: rgb(229, 222, 214);
+}
